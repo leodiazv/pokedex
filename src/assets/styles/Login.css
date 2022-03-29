@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto:wght@300;500&display=swap");
+
+.login-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+img {
+  width: 80%;
+  margin: 50px;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  color: #fe1936;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 50px;
+}
+
+.form-container {
+  padding: 30px;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+
+input {
+  width: 50%;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  border-style: none;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+::placeholder {
+  font-family: "Roboto", sans-serif;
+  color: #d3d3d3;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+button {
+  width: 30%;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  border-style: none;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  background-color: #d93f3f;
+}
+
+footer {
+  height: 60px;
+  width: 100%;
+  background: linear-gradient(0deg, #d93f3f 50%, #000 50%);
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer img {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  margin: 0;
+}
+
+@media (min-width: 1280px) {
+  img {
+    width: 700px;
+    margin: 50px;
+  }
+
+  .form-container {
+    width: 700px;
+    padding: 0px;
+  }
+
+  footer {
+    height: 100px;
+  }
+
+  footer img {
+    height: 100px;
+    width: 100px;
+  }
+}

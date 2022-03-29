@@ -1,0 +1,205 @@
+.pokemon-card {
+  width: 100%;
+  margin: 0;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  height: 140px;
+}
+
+li {
+  list-style: none;
+  color: aquamarine;
+}
+
+h1 {
+  text-transform: capitalize;
+  margin: 0;
+  color: #fff;
+  font-size: 30px;
+}
+
+.pokemon-image img {
+  height: 130px;
+  max-width: 130px;
+  margin: 0px 20px 0px 0px;
+  position: relative;
+  bottom: 40px;
+  left: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pokemon-short-info {
+  margin: 15px;
+}
+
+.pokemon-short-info p {
+  margin: 0px 0px 0px;
+  color: #000;
+}
+
+.pokemon-short-info .pokemon-types {
+  display: flex;
+  text-transform: capitalize;
+  /* background-color: aqua; */
+}
+
+.pokemon-short-info .pokemon-types p {
+  color: #fff;
+  margin: 5px;
+  margin-left: 0px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+@media (min-width: 768px) {
+  .pokemon-card {
+    width: 320px;
+    margin: 0;
+    margin-top: 50px;
+    display: flex;
+
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 140px;
+  }
+}
+
+.ghost:hover {
+  -webkit-box-shadow: 1px 7px 11px 3px rgba(101, 84, 158, 0.51);
+  box-shadow: 1px 7px 11px 3px rgba(101, 84, 158, 0.51);
+}
+.steel:hover {
+  -webkit-box-shadow: 1px 7px 11px 3px rgba(130, 126, 161, 0.51);
+  box-shadow: 1px 7px 11px 3px rgba(130, 126, 161, 0.51);
+}
+.dragon:hover {
+  -webkit-box-shadow: 1px 7px 11px 3px rgba(57, 54, 182, 0.51);
+  box-shadow: 1px 7px 11px 3px rgba(57, 54, 182, 0.51);
+}
+.flying:hover {
+  -webkit-box-shadow: 1px 7px 11px 3px rgba(125, 156, 245, 0.51);
+  box-shadow: 1px 7px 11px 3px rgba(125, 156, 245, 0.51);
+}
+.water:hover {
+  -webkit-box-shadow: 1px 7px 11px 3px rgba(58, 133, 232, 0.51);
+  box-shadow: 1px 7px 11px 3px rgba(58, 133, 232, 0.51);
+}
+.ice:hover {
+  -webkit-box-shadow: 1px 7px 11px 3px rgba(91, 207, 228, 0.51);
+  box-shadow: 1px 7px 11px 3px rgba(91, 207, 228, 0.51);
+}
+.unknown:hover {
+  -webkit-box-shadow: 1px 7px 11px 3px rgba(220, 220, 220, 0.51);
+  box-shadow: 1px 7px 11px 3px rgba(220, 220, 220, 0.51);
+}
+.grass:hover {
+  -webkit-box-shadow: 1px 7px 11px 3px rgba(74, 175, 67, 0.51);
+  box-shadow: 1px 7px 11px 3px rgba(74, 175, 67, 0.51);
+}
+.bug:hover {
+  -webkit-box-shadow: 1px 7px 11px 3px rgba(127, 152, 41, 0.51);
+  box-shadow: 1px 7px 11px 3px rgba(127, 152, 41, 0.51);
+}
+.normal:hover {
+  -webkit-box-shadow: 1px 7px 11px 3px rgba(173, 161, 132, 0.51);
+  box-shadow: 1px 7px 11px 3px rgba(173, 161, 132, 0.51);
+}
+.electric:hover {
+  -webkit-box-shadow: 1px 7px 11px 3px rgba(233, 180, 55, 0.51);
+  box-shadow: 1px 7px 11px 3px rgba(233, 180, 55, 0.51);
+}
+.ground:hover {
+  -webkit-box-shadow: 1px 7px 11px 3px rgba(181, 141, 73, 0.51);
+  box-shadow: 1px 7px 11px 3px rgba(181, 141, 73, 0.51);
+}
+.rock:hover {
+  -webkit-box-shadow: 1px 7px 11px 3px rgba(145, 101, 69, 0.51);
+  box-shadow: 1px 7px 11px 3px rgba(145, 101, 69, 0.51);
+}
+.fire:hover {
+  -webkit-box-shadow: 1px 7px 11px 3px rgba(230, 95, 41, 0.51);
+  box-shadow: 1px 7px 11px 3px rgba(230, 95, 41, 0.51);
+}
+.fighting:hover {
+  -webkit-box-shadow: 1px 7px 11px 3px rgba(119, 49, 46, 0.51);
+  box-shadow: 1px 7px 11px 3px rgba(119, 49, 46, 0.51);
+}
+.dark:hover {
+  -webkit-box-shadow: 1px 7px 11px 3px rgba(68, 54, 55, 0.51);
+  box-shadow: 1px 7px 11px 3px rgba(68, 54, 55, 0.51);
+}
+.psychic:hover {
+  -webkit-box-shadow: 1px 7px 11px 3px rgba(240, 75, 131, 0.51);
+  box-shadow: 1px 7px 11px 3px rgba(240, 75, 131, 0.51);
+}
+.fairy:hover {
+  -webkit-box-shadow: 1px 7px 11px 3px rgba(247, 133, 233, 0.51);
+  box-shadow: 1px 7px 11px 3px rgba(247, 133, 233, 0.51);
+}
+.poison:hover {
+  -webkit-box-shadow: 1px 7px 11px 3px rgba(130, 62, 162, 0.51);
+  box-shadow: 1px 7px 11px 3px rgba(130, 62, 162, 0.51);
+}
+
+#ghost {
+  background-color: #65549e;
+}
+#steel {
+  background-color: #827ea1;
+}
+#dragon {
+  background-color: #3936b6;
+}
+#flying {
+  background-color: #7d9cf5;
+}
+#water {
+  background-color: #3a85e8;
+}
+#ice {
+  background-color: #5bcfe4;
+}
+#unknown {
+  background-color: gainsboro;
+}
+#grass {
+  background-color: #4aaf43;
+}
+#bug {
+  background-color: #7f9829;
+}
+#normal {
+  background-color: #ada184;
+}
+#electric {
+  background-color: #e9b437;
+}
+#ground {
+  background-color: #b58d49;
+}
+#rock {
+  background-color: #916545;
+}
+#fire {
+  background-color: #e65f29;
+}
+#fighting {
+  background-color: #77312e;
+}
+#dark {
+  background-color: #443637;
+}
+#psychic {
+  background-color: #f04b83;
+}
+#fairy {
+  background-color: #f785e9;
+}
+#poison {
+  background-color: #823ea2;
+}
