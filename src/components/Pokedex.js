@@ -106,11 +106,11 @@ const Pokedex = () => {
                   </li>
                 ))}
         </ul>
-        {/* <Pagination
+        <Pagination
           cardsPerPage={cardsPerPage}
           totalCards={pokedexData.length}
           paginate={paginate}
-        /> */}
+        />
       </div>
     </div>
   );

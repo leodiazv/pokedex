@@ -7,12 +7,22 @@ const Pagination = ({ cardsPerPage, totalCards, paginate }) => {
     pageNumbers.push(i);
   }
 
+  const onClick = (number, e) => {
+    e.preventDefault();
+    paginate(number);
+    /* return false; */
+  };
+
   return (
     <nav>
       <ul className="pagination">
         {pageNumbers.map((number) => (
           <li key={number} className="page-item">
-            <a onClick={() => paginate(number)} href="!#" className="page-link">
+            <a
+              onClick={(e) => onClick(number, e)}
+              href="!#"
+              className="page-link"
+            >
               {number}
             </a>
           </li>
